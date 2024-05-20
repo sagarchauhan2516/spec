@@ -1,0 +1,72 @@
+/* Basic reset styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif; /* Default font family */
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 20px;
+    display: flex; /* Arrange logo and college name horizontally */
+    align-items: center; /* Align vertically */
+  }
+  
+  header h1 {
+    margin-left: 20px; /* Spacing between logo and college name */
+  }
+  
+  /* Navigation Styles */
+  .nav-bar {
+    list-style: none; /* Remove default list style */
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .nav-bar li {
+    margin-right: 20px; /* Spacing between navigation items */
+  }
+  
+  .nav-bar a {
+    text-decoration: none; /* Remove underline from links */
+    color: #000; /* Black color for links */
+  }
+  
+  .nav-bar a:hover {
+    color: #333; /* Change link color on hover */
+  }
+  
+  /* Home Section Styles */
+  section {
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 10px; /* Spacing below headings */
+  }
+  
+  /* Image Styles */
+  .logo {
+    width: 200px; /* Adjust image width as needed */
+    margin: 10px; /* Spacing between images */
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff; /* White text color */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer a {
+    color: #fff; /* White color for social media links */
+    margin: 0 10px; /* Spacing between social media links */
+  }
+  
+  footer p {
+    margin-bottom: 10px; /* Spacing between copyright and social links */
+  }
+  
